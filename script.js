@@ -15,9 +15,12 @@ const query = {
    
 }
 
+
+
 $('.js-catch').on('submit', function(event){
+    $('.results').empty();
     event.preventDefault();
     let pokemonCount = $('.pokenum').val();
-    let pokeHolder = $('.search-anime').val();
+    let pokeHolder = $('.search-pokemon').val();
     pokemonCall(pokeHolder, pokemonCount);
 })

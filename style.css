@@ -1,6 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+
 .pokeMon {
-    height: 400px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pokeMon:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.results {
+    text-align: center;
+}
+
+.js-catch {
+    margin: 50px 10px;
+}
+
+.search-pokemon, .pokenum, .js-submit{
+    display: block;
     width: 300px;
     padding: 10px;
-    border-radius: 2px;
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: center;
 }
